@@ -22,5 +22,5 @@ var isMobile = {
 
 // If the user is viewing on a mobile device, change the icon size.
 if (isMobile.any()) {
-	$("span").switchClass("fa-2x", "fa-4x", 0);
+	$("span").switchClass("fa-2x", "fa-msize", 0);
 }
