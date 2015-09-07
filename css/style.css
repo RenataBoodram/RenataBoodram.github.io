@@ -11,17 +11,16 @@ a:hover {
 }
 
 body {
-	font-family: "Lucida Console";
+	font-family: "Monospace";
 }
 
 h1 {
 	font-size: 100px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
 	text-align: center;
 }
 
 p {
+	padding-bottom: 67px;
 	text-align: center;
 }
 
