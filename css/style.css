@@ -1,49 +1,39 @@
+@font-face {
+    font-family: Modernist;
+    src: url("./fonts/SK-Modernist-Regular.otf");
+}
+
 a:link, a:visited {
-	color: #000000;
-	font-size: 12pt;
-	text-decoration: none;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 10pt;
+    font-weight: lighter;
+    padding-right: 10px;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #7CBB00;
-	/* color: #34a853; */
-	-webkit-transition: 0.5s;
+     color: #fff111; 
+     font-family: "Modernist";
+     -webkit-transition: 0.5s;
 }
 
 body {
-	font-family: "Monospace";
+    color: #ffffff;
+    background-color: #000001;
+    font-family: "Modernist";
 }
 
 h1 {
-	font-size: 100px;
-	text-align: center;
+    /*border-bottom: 1px solid #ffffff;*/ 
+    font-family: 'Lato';
+    font-size: 75px;
+    font-weight: 100;
+    margin-bottom: 1%; 
+    padding-top: 11.3%;
+    text-align: center;
 }
 
 p {
-	padding-bottom: 67px;
-	text-align: center;
-}
-
-a:hover.email {
-	color: #002f65;
-}
-
-a:hover.github {
-	color: #4078c0;
-}
-
-a:hover.twitter {
-	color: #55acee;
-}
-
-a:hover.stackexchange {
-	color: #2f96e8;
-}
-
-a:hover.facebook {
-	color: #3b5999;
-}
-
-a:hover.instagram {
-	color: #125688;
+    text-align: center;
 }
