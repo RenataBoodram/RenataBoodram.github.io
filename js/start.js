@@ -1,3 +1,12 @@
+$("i").hover(
+    function () {
+        $("i").not(this).fadeTo(100, 0.1);
+    },
+    function() {
+        $("i").fadeTo('slow', 1);
+    }
+);
+
 // Check if the website is being viewed on a mobile device.
 var isMobile = {
     Android: function() {
@@ -22,5 +31,4 @@ var isMobile = {
 
 // If the user is viewing on a mobile device, change the icon size.
 if (isMobile.any()) {
-	$("span").switchClass("fa-3x", "fa-msize", 0);
 }

@@ -3,18 +3,37 @@
     src: url("./fonts/SK-Modernist-Regular.otf");
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 a:link, a:visited {
     color: #ffffff;
-    font-family: "Raleway";
     font-size: 10pt;
     font-weight: lighter;
-    padding-right: 10px;
     text-decoration: none;
 }
 
 a:hover {
-     color: #fff111; 
-     font-family: "Modernist";
+     /*color: #fff111; */
+     color: #ffffff;
      -webkit-transition: 0.5s;
 }
 
@@ -24,8 +43,12 @@ body {
     font-family: "Modernist";
 }
 
+div {
+    text-align: center;
+}
+
 h1 {
-    /*border-bottom: 1px solid #ffffff;*/ 
+    animation: 1s ease-in 0s 1 fade-in;
     font-family: 'Lato';
     font-size: 75px;
     font-weight: 100;
@@ -34,6 +57,11 @@ h1 {
     text-align: center;
 }
 
-p {
-    text-align: center;
+i {
+    animation: 1s ease-in 0s 1 drop;
+}
+
+span {
+    padding-left: 15px;
+    padding-right: 15px;
 }
