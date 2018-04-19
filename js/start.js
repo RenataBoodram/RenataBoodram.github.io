@@ -1,9 +1,9 @@
 $("i").hover(
     function () {
-        $("i").not(this).fadeTo(100, 0.1);
+        $("i").not(this).fadeTo(0, 0.1);
     },
     function() {
-        $("i").fadeTo('slow', 1);
+        $("i").fadeTo('medium', 1);
     }
 );
 
