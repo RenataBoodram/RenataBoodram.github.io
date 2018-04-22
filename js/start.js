@@ -1,6 +1,6 @@
 $("i").hover(
     function () {
-        $("i").not(this).fadeTo(0, 0.1);
+        $("i").not(this).fadeTo(0, 0);
     },
     function() {
         $("i").fadeTo('medium', 1);
